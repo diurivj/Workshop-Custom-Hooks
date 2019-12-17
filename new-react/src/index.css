@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Vibes&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  font-family: 'Vibes', cursive;
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 50%;
+  font-size: 3rem;
+  text-align: center;
+  background: none;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #e5d8c6;
+  box-shadow: 0 0 5px rgba(229, 216, 198, 1),
+    0px -2px 0px rgba(160, 159, 157, 0.2), 0 -4px 15px rgba(160, 159, 157, 0.5);
+}
